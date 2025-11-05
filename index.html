@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogar+ Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="layout">
+        <aside class="sidebar">
+            <div class="brand">
+                <span class="brand-logo">H+</span>
+                <h1>Hogar+</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="linea-blanca.html">Línea blanca</a></li>
+                    <li><a href="utensilios.html">Utensilios del hogar</a></li>
+                    <li><a href="juguetes.html">Juguetes</a></li>
+                    <li><a href="belleza.html">Belleza</a></li>
+                    <li><a href="tazas.html">Tazas y más</a></li>
+                </ul>
+            </nav>
+           
+        </aside>
+
+        <main class="content">
+            <header class="topbar">
+                <div class="header-links">
+                    <a href="#sobre-nosotros">Sobre Nosotros</a>
+                    <a href="#terminos">Términos y Condiciones</a>
+                    <a href="#privacidad">Política de Privacidad</a>
+                    <a href="#faq">Preguntas Frecuentes</a>
+                </div>
+                <div class="search-bar">
+                    <input type="search" placeholder="Buscar productos">
+                    <button type="button">Buscar</button>
+                </div>
+            </header>
+
+            <section class="hero">
+                <div class="hero-content">
+                    <h2>Bienvenido a Hogar+</h2>
+                    <p>Tu tienda en línea para transformar cada espacio del hogar con estilo, innovación y confort.</p>
+                    <a href="#destacados" class="cta">Explorar productos</a>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80" alt="Ambiente acogedor de hogar">
+                </div>
+            </section>
+
+            <section id="destacados" class="category-section">
+                <div class="section-header">
+                    <p class="eyebrow">Recomendados</p>
+                    <h2>Lo mejor de Hogar+</h2>
+                    <p>Descubre nuestras selecciones destacadas para renovar tu hogar con productos inteligentes, funcionales y hermosos.</p>
+                </div>
+                <div class="product-grid">
+                    <!-- Todos los productos de Tazas y más -->
+                    <article class="product-card">
+                        <img src="./tazas y mas/08249d7a-f253-4f1c-9b44-2249bd3ab5ea.jpg" alt="Calentador de fragancia">
+                        <h3>MeplLivs Warmers Calentador</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Diseño decorativo plateado</li>
+                                <li>Enchufable a la pared</li>
+                                <li>Compatible con velas perfumadas</li>
+                                <li>Calentamiento uniforme</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 1,000.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/16bc87a4-0646-4dd6-9b9b-feb910203b06.jpg" alt="Tenis Minnie Mouse">
+                        <h3>Minnie Mouse Tennis Sneakers</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Talla 11</li>
+                                <li>Diseño Minnie Mouse</li>
+                                <li>Material cómodo</li>
+                                <li>Estilo tennis</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 650.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/3c9d0ea9-5146-444b-a5bf-d2ed60dc436c.jpg" alt="Bolsa Victoria Secret">
+                        <h3>Victoria Secret - Bolsa grande</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Bolsa a cuadros rojos</li>
+                                <li>Tamaño grande</li>
+                                <li>Para ir de compras</li>
+                                <li>Diseño elegante</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 629.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/470ba9e8-f4c5-407e-8fa0-46c0d2a29973.jpg" alt="Taza de café">
+                        <h3>Taza de café, color blanco y verde</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Cerámica de alta calidad</li>
+                                <li>Diseño Rae Dunn x Princess Tiana</li>
+                                <li>Citas inspiradoras</li>
+                                <li>Regalo perfecto para fanáticos</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 500.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/4f5a7b92-0ac0-4636-b345-04ff8b4f1c43.jpg" alt="Fragancia de pared">
+                        <h3>Fragancia de pared con luz</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Tapón de fragancia con luz nocturna</li>
+                                <li>Compatible con WallFlower Bath & Body Works</li>
+                                <li>Difusor de aceite esencial</li>
+                                <li>Diamantes de imitación</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 599.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/5847e41d-0e1e-44d0-abb3-708af5ad0311.jpg" alt="Paraguas Harry Potter">
+                        <h3>Cinereplicas Harry Potter - Paraguas</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Licencia oficial</li>
+                                <li>Diseño temático Harry Potter</li>
+                                <li>Resistente al agua</li>
+                                <li>Tamaño estándar</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 799.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/5a8f1ba5-afee-4a8a-a1de-fc59471d7ba6.jpg" alt="Calentador de cera">
+                        <h3>Calentador de cera enchufable</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Calentador de cera de cerámica</li>
+                                <li>Cubo eléctrico para aromas</li>
+                                <li>Para hogar y oficina</li>
+                                <li>Fácil de usar</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 359.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/71fddb18-0b45-4f60-a802-590eeb1b48ae.jpg" alt="Calentador eléctrico">
+                        <h3>Calentador eléctrico de cera de cristal</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Diseño de cristal elegante</li>
+                                <li>Derretir rápidamente bloques de cera</li>
+                                <li>Fragancia de larga duración</li>
+                                <li>Quemador de cera de vela</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 300.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/7aa88d5b-0acf-4bfe-8825-a7e121793b82.jpg" alt="Audífonos Disney">
+                        <h3>Disney Classics Marie Plush Wired Headphones</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Audífonos con cable</li>
+                                <li>Diseño de peluche Marie</li>
+                                <li>Clásicos de Disney</li>
+                                <li>Cómodos para uso prolongado</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 549.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./tazas y mas/eea52ccf-bf85-4eb0-9d1c-485edb20c354.jpg" alt="Calentador 3 en 1">
+                        <h3>Calentador de cera de cerámica, 3 en 1</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Quemador de aceite eléctrico</li>
+                                <li>Calefacción PTC</li>
+                                <li>Fácil de limpiar</li>
+                                <li>Para cera perfumada y tartas</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 600.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <!-- Productos de otras categorías -->
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1523507496633-338bf2b8e9a5?auto=format&fit=crop&w=500&q=80" alt="Refrigeradora moderna">
+                        <h3>Refrigeradora SmartCool</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Capacidad: 450 litros</li>
+                                <li>Tecnología No Frost</li>
+                                <li>Eficiencia energética A++</li>
+                                <li>Dispensador de agua</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 24,999.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="https://images.unsplash.com/photo-1581586905412-1e5ba4eb2c94?auto=format&fit=crop&w=500&q=80" alt="Juego de cuchillos profesional">
+                        <h3>Set Cuchillos MasterChef</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Acero inoxidable de alta calidad</li>
+                                <li>5 cuchillos diferentes</li>
+                                <li>Mango ergonómico</li>
+                                <li>Incluye bloque de madera</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 1,499.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./juguetes/1b8cae03-b2aa-40f4-b292-4c9ef3296c69.jpg" alt="Peluche Bluey">
+                        <h3>Bluey - 12" Talking Bingo Plush</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Peluche interactivo de 12"</li>
+                                <li>9 frases diferentes</li>
+                                <li>Canta junto con Bingo</li>
+                                <li>Multicolor</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 300.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                    
+                    <article class="product-card">
+                        <img src="./belleza/c79f432d-4192-4404-8b8e-7017b5316b9f.jpg" alt="Victoria Secret Collection">
+                        <h3>Victoria's Secret Mist Collection</h3>
+                        <div class="caracteristicas-toggle" onclick="toggleCaracteristicas(this)">
+                            <span>Características</span>
+                            <span class="arrow">▼</span>
+                        </div>
+                        <div class="caracteristicas-content">
+                            <ul>
+                                <li>Juego de regalo de 12 piezas</li>
+                                <li>Nieblas de viaje</li>
+                                <li>Fragancias variadas</li>
+                                <li>Tamaño perfecto para llevar</li>
+                            </ul>
+                        </div>
+                        <p class="price">L 2,000.00</p>
+                        <button>Consultar por WhatsApp</button>
+                    </article>
+                </div>
+            </section>
+
+
+
+            <section class="info-panels">
+                <article id="sobre-nosotros">
+                    <h4>Sobre Nosotros</h4>
+                    <p>Hogar+ nace con la misión de llevar artículos inspiradores y funcionales a cada casa hondureña. Trabajamos con marcas confiables para ofrecer calidad superior y precios competitivos.</p>
+                </article>
+                <article id="terminos">
+                    <h4>Términos y Condiciones</h4>
+                    <p>Consulta las políticas de compra, envíos y devoluciones para conocer todos los detalles antes de realizar tu pedido con nosotros.</p>
+                </article>
+                <article id="privacidad">
+                    <h4>Política de Privacidad</h4>
+                    <p>Cuidamos tus datos personales con altos estándares de seguridad. Revisa cómo recopilamos y utilizamos tu información.</p>
+                </article>
+                <article id="faq">
+                    <h4>Preguntas Frecuentes</h4>
+                    <p>Encuentra respuestas a las preguntas más comunes sobre métodos de pago, tiempos de entrega y soporte postventa.</p>
+                </article>
+            </section>
+
+            <footer class="site-footer">
+                <div class="footer-info">
+                    <span>Honduras</span>
+                    <span><a href="mailto:info@hogarplus.com">info@hogarplus.com</a></span>
+                    <span><a href="https://wa.me/504" target="_blank" rel="noopener">WhatsApp</a></span>
+                </div>
+                <p class="copyright">© 2024 Hogar+ Store. Todos los derechos reservados.</p>
+                <p class="disclaimer">Precios sujetos a cambio sin previo aviso. Imágenes ilustrativas.</p>
+            </footer>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
